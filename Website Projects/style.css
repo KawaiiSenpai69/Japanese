@@ -1,0 +1,158 @@
+@charset 'utf-8';
+
+/* heading 2 format changes*/
+h1 {
+	font-size:40pt;
+	text-align: center;
+}
+
+h2 {
+	color: #2C6700;
+	font-family: Arial;
+	font-size: 25pt;
+}
+
+/* background changes*/
+body {
+	background-color: #FFCF79;
+}
+
+/* body text changes*/
+p,table {
+	color: #935A9A;
+	font-size: 20pt;
+	background-color: #7EBE89;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-right:25px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	text-align: center
+}
+
+ul{
+	color: #935A9A;
+	font-size: 20pt;
+	background-color: #7EBE89;
+	padding: 25px;
+	border-radius: 10px;
+
+}
+
+.imagewidth {
+	width: 1200px;
+}
+
+/* navigation section*/
+nav {
+	font-size: 30px;
+	background-color: #F57D69;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	height: 35px;
+	position: sticky;
+	top: 25px;
+}
+
+th, td {
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* article */
+article {
+	background-color:
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-left: 17%;
+	margin-right: 17%;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+#textblack{
+	color: #90542E;
+}
+/* analyze texets*/
+.analyze {
+	color:red;
+}
+
+/* important texts*/
+#important {
+	color: blue;
+}
+
+/* aside bar*/
+aside {
+	width: 14%;
+	position: sticky;
+	top: 0px;
+	color: black;
+}
+
+#float{
+	float: left;
+}
+
+#graphtext{
+	float: right;
+	margin-right: 30px;
+	width: 500px;
+}
+footer{
+	text-align: center;
+}
+
+
+
+/* Hyperlinks*/
+a:link {
+	/* link not clicked*/
+}
+
+a:hover {
+	/* when house is hovering over the link */
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a:visited {
+	/* link has been clicked*/
+}
+
+
+/* Buttons */
+
+.button {
+	width: 250px;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #F57D69;
+	border-radius: 3px;
+	float: left;
+	margin-right: 10px;	
+}	
+	
+a:link .button {
+	text-transform:uppercase;
+}
+a:visited .button {
+	text-transform:uppercase;
+}
+a:hover .button {
+	text-transform:uppercase;
+	background-color: #FFCF79;
+	border-color: #000000
+}
